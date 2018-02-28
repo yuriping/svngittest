@@ -1,0 +1,250 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign\/missing --run tar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign\/missing --run automake-1.11$/;"	m
+AUTOMAKE_OPTIONS	Makefile	/^AUTOMAKE_OPTIONS = foreign$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+BUF_SIZE	common.h	65;"	d
+CAPACITY	common.h	60;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+COPYRIGHT	common.h	21;"	d
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DEFAULT_FRAGLEN	common.h	61;"	d
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFS	Makefile	/^DEFS = -DPACKAGE_NAME=\\"sign\\" -DPACKAGE_TARNAME=\\"sign\\" -DPACKAGE_VERSION=\\"0.3.2.0\\" -DPACKAGE_STRING=\\"sign\\ 0.3.2.0\\" -DPACKAGE_BUGREPORT=\\"yuriping@sohu.com\\" -DPACKAGE_URL=\\"\\" -DPACKAGE=\\"sign\\" -DVERSION=\\"0.3.2.0\\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_FCNTL_H=1 -DHAVE_STDINT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDBOOL_H=1 -DHAVE_STDLIB_H=1 -DHAVE_REALLOC=1 -DHAVE_BZERO=1 -DHAVE_GETTIMEOFDAY=1 -DHAVE_STRERROR=1$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DIGEST_LEN_MAX	HashType.h	10;"	d
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(am__configure_deps) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(sign_SOURCES)$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+FILENAME_LEN_MAX	common.h	63;"	d
+FILE_OPTR_E	common.h	/^typedef enum FILE_OPTR_E$/;"	g
+FILE_OPTR_E	common.h	/^} FILE_OPTR_E;$/;"	t	typeref:enum:FILE_OPTR_E
+FILE_OPTR_E_HASH	common.h	/^	FILE_OPTR_E_HASH,                           \/\/ Hash$/;"	e	enum:FILE_OPTR_E
+FILE_OPTR_E_NUM	common.h	/^	FILE_OPTR_E_NUM$/;"	e	enum:FILE_OPTR_E
+FILE_OPTR_E_SIGN	common.h	/^	FILE_OPTR_E_SIGN,                           \/\/ 签名$/;"	e	enum:FILE_OPTR_E
+FILE_OPTR_E_VERIFY	common.h	/^	FILE_OPTR_E_VERIFY,                         \/\/ 校验$/;"	e	enum:FILE_OPTR_E
+GETOPT_PRM_S	common.h	/^typedef struct GETOPT_PRM_S$/;"	s
+GETOPT_PRM_S	common.h	/^} GETOPT_PRM_S, * P_GETOPT_PRM_S;$/;"	t	typeref:struct:GETOPT_PRM_S
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+GetOptHandle	common.c	/^void GetOptHandle(int argc, char * argv[], P_GETOPT_PRM_S pgetoptPrm)$/;"	f
+HASH_TYPE_E	HashType.h	/^typedef enum HASH_TYPE_E$/;"	g
+HASH_TYPE_E	HashType.h	/^} HASH_TYPE_E;$/;"	t	typeref:enum:HASH_TYPE_E
+HASH_TYPE_FUNC_T	HashType.h	/^typedef void (* HASH_TYPE_FUNC_T)(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen);$/;"	t
+HASH_TYPE_GOSTHASH94	HashType.h	/^    HASH_TYPE_GOSTHASH94,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_MD2	HashType.h	/^    HASH_TYPE_MD2,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_MD4	HashType.h	/^    HASH_TYPE_MD4,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_MD5	HashType.h	/^    HASH_TYPE_MD5,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_NUM	HashType.h	/^	HASH_TYPE_NUM$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_RIPEMD160	HashType.h	/^    HASH_TYPE_RIPEMD160,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_SHA1	HashType.h	/^    HASH_TYPE_SHA1,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_SHA224	HashType.h	/^    HASH_TYPE_SHA224,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_SHA256	HashType.h	/^    HASH_TYPE_SHA256,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_SHA384	HashType.h	/^    HASH_TYPE_SHA384,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_SHA3_224	HashType.h	/^    HASH_TYPE_SHA3_224,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_SHA3_256	HashType.h	/^    HASH_TYPE_SHA3_256,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_SHA3_384	HashType.h	/^    HASH_TYPE_SHA3_384,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_SHA3_512	HashType.h	/^    HASH_TYPE_SHA3_512,$/;"	e	enum:HASH_TYPE_E
+HASH_TYPE_SHA512	HashType.h	/^    HASH_TYPE_SHA512,$/;"	e	enum:HASH_TYPE_E
+HashTypeFuncVec	HashType.h	/^static HASH_TYPE_FUNC_T HashTypeFuncVec[HASH_TYPE_NUM] =$/;"	v
+Hash_GOSTHASH94	HashType.c	/^void Hash_GOSTHASH94(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_MD2	HashType.c	/^void Hash_MD2(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_MD4	HashType.c	/^void Hash_MD4(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_MD5	HashType.c	/^void Hash_MD5(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_RIPEMD160	HashType.c	/^void Hash_RIPEMD160(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_SHA1	HashType.c	/^void Hash_SHA1(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_SHA224	HashType.c	/^void Hash_SHA224(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_SHA256	HashType.c	/^void Hash_SHA256(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_SHA384	HashType.c	/^void Hash_SHA384(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_SHA3_224	HashType.c	/^void Hash_SHA3_224(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_SHA3_256	HashType.c	/^void Hash_SHA3_256(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_SHA3_384	HashType.c	/^void Hash_SHA3_384(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_SHA3_512	HashType.c	/^void Hash_SHA3_512(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+Hash_SHA512	HashType.c	/^void Hash_SHA512(FILE * fd, long fragLen, uint8_t * digest, unsigned char * pDigestLen)$/;"	f
+INCLUDES	Makefile	/^INCLUDES = -I\/usr\/i586-mingw32msvc\/libc\/usr\/include$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+KB	common.h	58;"	d
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS =  -lnettle -lhogweed$/;"	m
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign\/missing --run makeinfo$/;"	m
+MB	common.h	59;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+PACKAGE	Makefile	/^PACKAGE = sign$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = yuriping@sohu.com$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = sign$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = sign 0.3.2.0$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = sign$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.3.2.0$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(noinst_PROGRAMS)$/;"	m
+P_GETOPT_PRM_S	common.h	/^} GETOPT_PRM_S, * P_GETOPT_PRM_S;$/;"	t	typeref:struct:GETOPT_PRM_S
+PrintHelp	common.c	/^void PrintHelp(char * progName, char * usage)$/;"	f
+PrintVersion	common.c	/^void PrintVersion(char * progName, char * version, char * copyright)$/;"	f
+RSASignDigestVec	HashType.h	/^static RSA_SIGN_DIGEST_T RSASignDigestVec[HASH_TYPE_NUM] =$/;"	v
+RSAVerifyDigestVec	HashType.h	/^static RSA_VERIFY_DIGEST_T RSAVerifyDigestVec[HASH_TYPE_NUM] =$/;"	v
+RSA_SIGN_DIGEST_T	HashType.h	/^typedef int (* RSA_SIGN_DIGEST_T)(const struct rsa_private_key *key, const uint8_t *digest, mpz_t s);$/;"	t
+RSA_VERIFY_DIGEST_T	HashType.h	/^typedef int (* RSA_VERIFY_DIGEST_T)(const struct rsa_public_key *key, const uint8_t *digest, const mpz_t signature);$/;"	t
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SOURCES	Makefile	/^SOURCES = $(sign_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = $/;"	m
+USAGE	common.h	24;"	d
+UpperStrFromHex	common.c	/^char * UpperStrFromHex(unsigned char * str, unsigned char * strLen,$/;"	f
+VERSION	Makefile	/^VERSION = 0.3.2.0$/;"	m
+VERSION	common.h	18;"	d
+____COMMON_H____	common.h	11;"	d
+____HASHTYPE_H____	HashType.h	3;"	d
+abs_builddir	Makefile	/^abs_builddir = \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_check_type	configure	/^ac_fn_c_check_type ()$/;"	f
+ac_fn_c_find_uintX_t	configure	/^ac_fn_c_find_uintX_t ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am_sign_OBJECTS	Makefile	/^am_sign_OBJECTS = sign.$(OBJEXT) common.$(OBJEXT) HashType.$(OBJEXT)$/;"	m
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+hashTypeName	HashType.h	/^static char * hashTypeName[HASH_TYPE_NUM] =$/;"	v
+host_alias	Makefile	/^host_alias = $/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/opt\/Project\/InformationizationofTribunal_1.0\/Tasks\/ContentProtection\/src\/sign\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	sign.c	/^int main(int argc, char * argv[])$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+noinst_PROGRAMS	Makefile	/^noinst_PROGRAMS = sign$(EXEEXT)$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+pFileOptr	common.h	/^	FILE_OPTR_E     * pFileOptr;                \/\/ 文件操作类型$/;"	m	struct:GETOPT_PRM_S
+pFilename	common.h	/^	char            * pFilename;				\/\/ 待操作文件名$/;"	m	struct:GETOPT_PRM_S
+pFragLen	common.h	/^	unsigned long   * pFragLen;                 \/\/ 文件缓存大小$/;"	m	struct:GETOPT_PRM_S
+pHashTypeSelVec	common.h	/^	bool			* pHashTypeSelVec;          \/\/ Hash方法选择向量$/;"	m	struct:GETOPT_PRM_S
+pKeyFilename	common.h	/^	char            * pKeyFilename;             \/\/ 秘钥文件名$/;"	m	struct:GETOPT_PRM_S
+pSigFilename	common.h	/^	char            * pSigFilename;             \/\/ 签名文件名$/;"	m	struct:GETOPT_PRM_S
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/sign$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/sign$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/sign$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/sign$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+read_file	common.c	/^unsigned read_file(const char *name, unsigned max_size, char **contents)$/;"	f
+read_rsa_key	common.c	/^int read_rsa_key(const char *name,$/;"	f
+read_signature	common.c	/^int read_signature(const char *name, mpz_t s)$/;"	f
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sign_LDADD	Makefile	/^sign_LDADD = $(LDADD)$/;"	m
+sign_OBJECTS	Makefile	/^sign_OBJECTS = $(am_sign_OBJECTS)$/;"	m
+sign_SOURCES	Makefile	/^sign_SOURCES = sign.c common.h common.c HashType.h HashType.c$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = .$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | bzip2 -9 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzma -9 -c >$(distdir).tar.lzma$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | xz -c >$(distdir).tar.xz$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m

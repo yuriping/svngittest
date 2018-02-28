@@ -1,0 +1,26 @@
+0. Compiling for Linux on x86
+-- Makefile.am, enable "LIBS+= -lnettle -lhogweed", comment "LIBS+= -L/usr/i586-mingw32msvc/libc/usr/lib -lnettle -lhogweed";
+-- ./configure
+-- make
+
+1. Compiling for Linux on ARM
+-- Makefile.am, enable "LIBS+= -lnettle -lhogweed", comment "LIBS+= -L/usr/i586-mingw32msvc/libc/usr/lib -lnettle -lhogweed";
+-- ./configure --host=arm-none-linux-gnueabi --prefix=/opt/DVRRDK/DVRRDK_03.00.00.00/ti_tools/cgt_a8/arm-2009q1/arm-none-linux-gnueabi/libc/usr --cache-file=arm-linux.cache
+-- make CROSS_COMPILE=arm-none-linux-gnueabi- ARCH=arm
+
+2. Compiling for Windows
+-- Makefile.am, enable "LIBS+= -L/usr/i586-mingw32msvc/libc/usr/lib -lnettle -lhogweed", comment "LIBS+= -lnettle -lhogweed";
+-- ./configure --host=i586-mingw32msvc --prefix=/usr/i586-mingw32msvc/libc/usr
+-- make CROSS_COMPILE=i586-mingw32msvc-
+
+3. Running on Windows
+-- The dll required should be deployed in the same path with the target.
+
+4. Affiliate operation while compiling form one config to another
+-- make distclean
+-- (Modify Makefile.am)
+-- aclocal
+-- autoconf
+-- automake -a
+-- ./configure ......
+-- make ......
